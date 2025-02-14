@@ -1,0 +1,9 @@
+server:
+  error:
+    include-stacktrace: on_param
+
+spring:
+  application:
+    name: spotify-connect
+  profiles:
+    active: ${APP_PROFILE:dev}
